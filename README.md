@@ -122,7 +122,7 @@ The subsequent image demonstrates the transformation brought about by the Pivot 
 
 
 **Step II:**  
-### Simplify the Data Structure:
+### Simplify the Data Structure
 
 Upon importing data from various sources into Power BI Desktop, the data retains its predefined table and column names. You may find it necessary to modify some of these names to ensure consistency, enhance usability, and provide more meaningful insights to users. Power BI Desktop's Power Query Editor facilitates these name changes, simplifying your data structure in the process.  
 
@@ -154,8 +154,52 @@ From time to time, you may encounter null values within your data sources. Shoul
 4. Remove Duplicates
 
 Additionally, you have the option to eliminate duplicate entries from columns, retaining only unique names within a chosen column, by utilizing the Remove Duplicates feature in Power Query. This can be accomplished by selecting a column, right-clicking on its header, and selecting the Remove Duplicates option.
-It is advisable to consider duplicating the table before removing duplicates. Doing so enables you to compare the tables and retain both versions if necessary.
+It is advisable to consider duplicating the table before removing duplicates. Doing so enables you to compare the tables and retain both versions if necessary.  
 
+![ETL IMG 20](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2020.png)  
+
+
+**Step III:**  
+### Evaluate and Change Column Data Types  
+
+Incorrect data types can hinder the creation of specific calculations, establishment of hierarchies, or formation of accurate relationships with other tables. Such inaccuracies can result in performance issues. It is considered a best practice to assess the column data types within Power Query Editor before loading the data into a Power BI semantic model.
+For example, let's evaluate the OrderDate column. Despite containing numeric data as anticipated, Power BI Desktop has erroneously assigned the column data type as Text. To effectively report on this column, it is imperative to convert the data type from Text to Date.  
+
+![ETL IMG 21](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2021.png)  
+
+You have the ability to modify the data type of a column both within Power Query Editor and in the Power BI Desktop Report view through the use of column tools. To accomplish this in Power Query Editor, first, choose the column with the relevant issue. Then, navigate to the Transform tab and select "Data Type," followed by choosing the appropriate data type from the provided list.  
+
+![ETL IMG 22](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2022.png)  
+
+Alternatively, you select the data type icon next to the column header and then select the correct data type from the list.  
+
+![ETL IMG 23](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2023.png)  
+
+
+**Step IV:**  
+### Profile Data in Power BI  
+
+Data profiling involves delving into the intricacies of data, which includes identifying anomalies, scrutinizing and refining the underlying data structures, and analyzing various data statistics such as row counts, value distributions, minimum and maximum values, averages, and more. This practice is crucial as it facilitates the shaping and organization of data, making it easier to interact with and comprehend. By simplifying data interactions and understanding data distributions, data profiling streamlines the process of developing report elements on the front end, thereby making tasks associated with data manipulation and analysis more effortless.  
+
+1. Examine data structure 
+
+Prior to embarking on data examination within Power Query Editor, it's advisable to familiarize yourself with the underlying data structures in which the data is organized. You can access the current semantic model by navigating to the Model tab within Power BI Desktop.  
+
+
+![ETL IMG 24](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2024.png)  
+
+Within the Model tab, you can modify specific column and table properties by selecting the desired table or columns. Moreover, you can transform the data by utilizing the "Transform Data" button, which redirects you to Power Query Editor. Furthermore, you can manage, establish, adjust, and remove relationships between various tables by accessing the "Manage Relationships" option located on the ribbon.  
+
+2. Find data anomalies and data statistics
+
+Data anomalies represent outliers within your dataset. Identifying these anomalies can provide insights into the typical distribution of your data and pinpoint specific data points that warrant further investigation. Power Query Editor utilizes the Column Distribution feature to detect data anomalies.  
+  
+To access data anomalies and statistics, navigate to the View tab on the ribbon. Under Data Preview, you'll find several options available. To gain insights into data anomalies and statistics, select the Column Distribution, Column Quality, and Column Profile options. The subsequent figure illustrates the statistical information displayed.  
+  
+Column quality and Column distribution are depicted in graphs situated above the data columns. Column quality showcases the percentages of valid, erroneous, and empty data. Ideally, you aim for 100 percent of the data to be valid.  
+
+
+![ETL IMG 25](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2025.png)  
 
 
 
