@@ -65,6 +65,36 @@ To eliminate these surplus rows, navigate to the Home tab and choose "Remove Row
 
 ![ETL IMG 7](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%207.png)   
 
+5. Remove columns:
+
+An essential aspect of the data shaping process involves eliminating redundant columns. It's preferable to discard columns at the earliest stage feasible. One approach to achieving this is by restricting the columns during the data retrieval process from the data source.
+
+There are two methods to remove columns. The initial method entails selecting the desired columns for removal, then navigating to the Home tab and selecting "Remove Columns.".  
+
+![ETL IMG 8](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%208.png)  
+
+Alternatively, you have the option to choose the columns you wish to retain and then, on the Home tab, select "Remove Columns" then "Remove Other Columns."  
+
+6. Unpivot columns:
+
+Unpivoting proves to be a valuable feature within Power BI, applicable across various data sources. However, it finds frequent use particularly when importing data from Excel.
+
+Consider the sample Excel document containing sales data below:
+
+![ETL IMG 9](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%209.png)  
+
+Generating a comprehensive total of all sales spanning 2018 and 2019 would pose a challenge. To facilitate the creation of total sales within Power BI, these three columns are required: Month, Year, and SalesAmount.  
+  
+Upon importing the data into Power Query, it will resemble the following:
+
+![ETL IMG 10](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2010.png)  
+
+
+
+
+
+
+
 
 
 
