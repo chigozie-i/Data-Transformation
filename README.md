@@ -101,6 +101,62 @@ The outcome:
 You can rename the Attribute column to Year and the Value column to SalesAmount.  
 
 
+7. Pivot Columns:   
+If your data lacks structure, meaning it's flat and lacks organization or grouping, it can hinder your ability to discern patterns within it.
+
+To address this, you can utilize the Pivot Column feature to transform your flat data into a structured table containing aggregated values for each unique value in a column. This feature enables you to summarize data using various mathematical functions such as Count, Minimum, Maximum, Median, Average, or Sum.
+
+For instance, in the SalesTarget example, you may pivot the columns to ascertain the quantity of product subcategories within each product category.
+
+To access this feature, navigate to the Transform tab and select "Transform" then "Pivot Columns."
+
+![ETL IMG 13](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2013.png)  
+
+In the displayed Pivot Column window, choose a column from the Values Column list, such as Subcategory name. Expand the advanced options and pick an option from the Aggregate Value Function list, such as Count (All), then click OK.  
+
+![ETL IMG 14](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2014.png)  
+
+The subsequent image demonstrates the transformation brought about by the Pivot Column feature in reorganizing the data.  
+
+![ETL IMG 15](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2015.png)  
+
+
+**Step II:**  
+### Simplify the Data Structure:
+
+Upon importing data from various sources into Power BI Desktop, the data retains its predefined table and column names. You may find it necessary to modify some of these names to ensure consistency, enhance usability, and provide more meaningful insights to users. Power BI Desktop's Power Query Editor facilitates these name changes, simplifying your data structure in the process.  
+
+1. Rename Query
+
+Within Power Query Editor, navigate to the Queries pane situated to the left of your data. Select the query you wish to rename. Right-click on the query and opt for "Rename." Proceed to modify the existing name or input a new one, then press Enter.
+
+![ETL IMG 16](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2016.png)  
+
+While there is no set rule regarding naming conventions for tables, columns, and values, it is advisable to adhere to language and abbreviations commonly employed within your organization.  A consensus among team members on these conventions fosters uniformity and facilitates effective communication.
+Best practice involves assigning descriptive business terms to tables, columns, and measures. Additionally, replacing underscores ("_") with spaces and maintaining consistency in abbreviations and prefixes further enhances clarity and understanding. 
+
+2. Replace Values
+
+The Replace Values feature in Power Query Editor enables you to substitute any value with another value within a designated column. In the example table provided below, within the Attribute column, the month "December" is misspelled. Correcting this error requires selecting the column containing the erroneous value (in this case, Attribute) and accessing the Replace Values option located on the Transform tab.  
+
+![ETL IMG 17](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2017.png)  
+
+Within the "Value to Find" box, input the name of the value you intend to replace. Subsequently, in the "Replace With" box, input the correct value name, and then proceed by selecting "OK."  
+
+![ETL IMG 18](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2018.png)  
+
+3. Replace null values
+
+From time to time, you may encounter null values within your data sources. Should these values persist as null, the accuracy of calculated averages could be compromised. One approach to mitigate this issue involves replacing the null values with zero. Following the same procedure outlined for replacing values, you can substitute null values with zero.  
+
+![ETL IMG 19](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2019.png)  
+
+4. Remove Duplicates
+
+Additionally, you have the option to eliminate duplicate entries from columns, retaining only unique names within a chosen column, by utilizing the Remove Duplicates feature in Power Query. This can be accomplished by selecting a column, right-clicking on its header, and selecting the Remove Duplicates option.
+It is advisable to consider duplicating the table before removing duplicates. Doing so enables you to compare the tables and retain both versions if necessary.
+
+
 
 
 
