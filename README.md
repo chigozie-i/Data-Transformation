@@ -27,7 +27,7 @@ Accessing Power Query Editor is straightforward: simply navigate to the Transfor
 
 ![ETL IMG 2](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%202.png)  
 
-## STEPS TO SHAPING YOUR DATA:
+## Steps to Shaping Your Data:
 **Step I:**  
 ### Columns and Headers  
 1. Identify Column Headers and Names
