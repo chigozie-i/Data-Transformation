@@ -9,15 +9,11 @@ Let’s delve into the intricacies of data cleaning and transformation in Power 
 
 ## TABLE OF CONTENTS:
 
-- [Overview](#Overview)
-- [Data Sources](#Data-Sources)
-- [Connecting To Files](#Connecting-To-Files)
-- [How To Connect To Data In A File](#How-To-Connect-To-Data-In-A-File)
-- [File Connection Path](#File-Connection-Path)
-- [Data Storage Mode](#Data-Storage-Mode)
-- [Lessons Learnt](#Lessons-Learnt)
+- [Transform Data with Power Query Editor](#Transform-Data-with-Power-Query-Editor)
+- [Steps To Shaping Your Data](#Steps-To-Shaping-Your-Data)
 - [Conclusion](#Conclusion)
 - [Reference](#Reference)
+- [Help and Support](#Help-and-Support)
 
 ##TRANSFORM DATA WITH POWER QUERY EDITOR:
 
@@ -221,11 +217,17 @@ Finally, upon completing all data cleaning and transformation steps, select "Clo
 
 
 
-
-
-
 ## Conclusion:
-enter a relevant text here...
+Data cleaning and transformation are foundational steps in the journey from raw data to actionable insights. With Power BI's robust features and intuitive interface, shaping your data for analysis becomes an efficient and streamlined process.
+
+Throughout this guide, we've explored various techniques and best practices for cleaning and transforming data in Power BI. From identifying column headers to evaluating data anomalies and statistics, each step is essential for ensuring data accuracy and reliability.
+
+By leveraging Power Query Editor and its powerful tools, you can easily cleanse, restructure, and enhance your data to uncover valuable insights. Whether it's renaming columns, replacing values, or changing data types, Power BI provides the flexibility and functionality needed to tackle even the most complex datasets.
+
+With a solid understanding of data profiling and manipulation techniques, you're well-equipped to navigate the intricacies of data preparation in Power BI. By following the steps outlined in this guide and embracing best practices, you can transform your raw data into actionable insights that drive informed decision-making and business success.
+
+In conclusion, mastering the art of data cleaning and transformation in Power BI empowers you to unleash the full potential of your data and unlock new opportunities for analysis and discovery.
+
 
 ## Reference:  
 https://learn.microsoft.com  
