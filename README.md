@@ -35,6 +35,7 @@ Accessing Power Query Editor is straightforward: simply navigate to the Transfor
 **Step I:**  
 ### Columns and Headers  
 1. Identify Column Headers and Names
+
 The initial stage of shaping your data involves identifying the column headers and names within the dataset, followed by evaluating their positioning to confirm their correctness.  
 
 ![ETL IMG 3](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%203.png)  
@@ -49,18 +50,22 @@ To promote headers, you select the "Use First Row as Headers" option on the Home
 ![ETL IMG 5](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%205.png)  
 
 3. Rename columns
+
 The next step in refining your data involves inspecting the column headers. You may uncover instances where one or more columns possess incorrect headers, there are spelling errors in headers, or the header naming convention lacks consistency or user-friendliness.
 
 There are two methods to rename column headers. One method involves right-clicking the header, selecting "Rename," editing the name, and then pressing Enter. Alternatively, you can double-click the column header and directly overwrite the name with the correct one.  
 
-4. Remove top rows: 
+4. Remove top rows
+
 During the process of shaping your data, it may become necessary to eliminate certain top rows. This could be due to various reasons such as blank rows or containing data irrelevant to your reports.
 
 ![ETL IMG 6](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%206.png)  
 
 To eliminate these surplus rows, navigate to the Home tab and choose "Remove Rows" then "Remove Top Rows".  
 
-![ETL IMG 7](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%207.png) 
+![ETL IMG 7](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%207.png)   
+
+
 
 
 ## Conclusion:
