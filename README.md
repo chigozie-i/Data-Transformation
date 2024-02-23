@@ -202,6 +202,22 @@ Column quality and Column distribution are depicted in graphs situated above the
 ![ETL IMG 25](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2025.png)  
 
 
+By default, Power Query examines the initial 1000 rows of your dataset. To adjust this setting, navigate to the profiling status in the status bar and select "Column profiling based on entire dataset."  
+  
+**Column distribution** provides insights into the distribution of data within the column, including counts of distinct and unique values. Distinct values encompass all different values in a column, including duplicates and null values, while unique values exclude duplicates and nulls. Therefore, distinct values indicate the total count of present values, while unique values reveal how many values appear only once. 
+ 
+**Column profile** offers a deeper dive into column statistics for the first 1000 rows of data. It includes various metrics such as row count, which is crucial for verifying successful data import. Additionally, it highlights outliers, empty rows, strings, as well as minimum and maximum values, facilitating a comprehensive understanding of the dataset.  
+  
+**Value distribution** graph illustrates counts for each distinct value in the column. Analyzing this graph enables the identification of outliers, such as values that significantly deviate from the norm.  
+  
+For numeric columns, Column Statistics encompass the number of zeroes and null values, along with the average value, standard deviation, and count of even and odd values. These statistics summarize the data distribution within the column and serve as a foundation for identifying outliers.
+
+Having comprehensively explored the elements comprising data profiling in Power BI, including loading data, examining column properties, identifying anomalies, and reviewing data statistics in Power Query Editor, you gain the ability to analyze data efficiently and effectively.
+
+Upon completing edits in Power Query Editor, return to the Home tab and select "Close & Apply" to implement changes in Power BI Desktop. The alterations, including column data type modifications, are saved as programmed steps, ensuring consistency upon data refresh.
+
+Finally, upon completing all data cleaning and transformation steps, select "Close & Apply" to exit Power Query Editor and apply changes to your semantic model. At this juncture, your data is primed for analysis and reporting.
+
 
 
 
