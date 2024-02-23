@@ -85,10 +85,20 @@ Consider the sample Excel document containing sales data below:
 
 Generating a comprehensive total of all sales spanning 2018 and 2019 would pose a challenge. To facilitate the creation of total sales within Power BI, these three columns are required: Month, Year, and SalesAmount.  
   
-Upon importing the data into Power Query, it will resemble the following:
+Upon importing the data into Power Query, it will resemble the following image:
 
 ![ETL IMG 10](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2010.png)  
 
+Following that, rename the initial column to "Month." Proceed by selecting the 2018 and 2019 columns, then navigate to the Transform tab within Power Query, and choose the "Unpivot" option.  
+
+![ETL IMG 11](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2011.png)  
+
+The outcome:  
+
+![ETL IMG 12](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2012.png)  
+
+
+You can rename the Attribute column to Year and the Value column to SalesAmount.  
 
 
 
