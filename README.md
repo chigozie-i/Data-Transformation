@@ -217,7 +217,7 @@ Finally, upon completing all data cleaning and transformation steps, select "Clo
 
 
 
-## Conclusion:
+## CONCLUSION:
 Data cleaning and transformation are foundational steps in the journey from raw data to actionable insights. With Power BI's robust features and intuitive interface, shaping your data for analysis becomes an efficient and streamlined process.
 
 Throughout this guide, we've explored various techniques and best practices for cleaning and transforming data in Power BI. From identifying column headers to evaluating data anomalies and statistics, each step is essential for ensuring data accuracy and reliability.
@@ -229,7 +229,7 @@ With a solid understanding of data profiling and manipulation techniques, you're
 In conclusion, mastering the art of data cleaning and transformation in Power BI empowers you to unleash the full potential of your data and unlock new opportunities for analysis and discovery.
 
 
-## Reference:  
+## REFERENCE:  
 https://learn.microsoft.com  
 https://docs.microsoft.com
 
