@@ -41,6 +41,7 @@ The initial stage of shaping your data involves identifying the column headers a
 The data depicted in the image did not import as anticipated. Upon locating the column headers and names, adjustments can be made to restructure the data accordingly.  
 
 2. Promote headers
+
 To promote headers, you select the "Use First Row as Headers" option on the Home tab.
 
 ![ETL IMG 4](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%204.png)  
