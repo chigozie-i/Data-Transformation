@@ -65,7 +65,7 @@ To eliminate these surplus rows, navigate to the Home tab and choose "Remove Row
 
 ![ETL IMG 7](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%207.png)   
 
-5. Remove columns:
+5. Remove columns
 
 An essential aspect of the data shaping process involves eliminating redundant columns. It's preferable to discard columns at the earliest stage feasible. One approach to achieving this is by restricting the columns during the data retrieval process from the data source.
 
@@ -75,7 +75,7 @@ There are two methods to remove columns. The initial method entails selecting th
 
 Alternatively, you have the option to choose the columns you wish to retain and then, on the Home tab, select "Remove Columns" then "Remove Other Columns."  
 
-6. Unpivot columns:
+6. Unpivot columns
 
 Unpivoting proves to be a valuable feature within Power BI, applicable across various data sources. However, it finds frequent use particularly when importing data from Excel.
 
@@ -101,7 +101,7 @@ The outcome:
 You can rename the Attribute column to Year and the Value column to SalesAmount.  
 
 
-7. Pivot Columns:   
+7. Pivot Columns   
 If your data lacks structure, meaning it's flat and lacks organization or grouping, it can hinder your ability to discern patterns within it.
 
 To address this, you can utilize the Pivot Column feature to transform your flat data into a structured table containing aggregated values for each unique value in a column. This feature enables you to summarize data using various mathematical functions such as Count, Minimum, Maximum, Median, Average, or Sum.
@@ -145,7 +145,7 @@ Within the "Value to Find" box, input the name of the value you intend to replac
 
 ![ETL IMG 18](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%2018.png)  
 
-3. Replace null values
+3. Replace Null Values
 
 From time to time, you may encounter null values within your data sources. Should these values persist as null, the accuracy of calculated averages could be compromised. One approach to mitigate this issue involves replacing the null values with zero. Following the same procedure outlined for replacing values, you can substitute null values with zero.  
 
