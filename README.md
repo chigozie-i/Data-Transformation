@@ -19,7 +19,18 @@ Let’s delve into the intricacies of data cleaning and transformation in Power 
 - [Conclusion](#Conclusion)
 - [Reference](#Reference)
 
-## Overview:
+## Transform Data with Power Query Editor
+
+After importing data into your Power BI model, a glance at it within Power BI Desktop reveals a disorganized state: certain data is irrelevant, while essential data is improperly formatted. To rectify this, leveraging Power Query Editor becomes imperative to cleanse and structure the dataset before proceeding with report creation.
+
+![ETL IMG 1](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%201.png)  
+
+To ensure trustworthy and dependable analytics, data necessitates thorough cleansing and preparation. Power Query Editor, integrated into Power BI Desktop, serves as the catalyst for transforming your imported data. With dedicated features geared towards data cleansing and preparation, Power Query equips you with the tools needed for effective analysis. In this article, we'll lead you through a comprehensive, step-by-step guide on shaping your data.  
+  
+Accessing Power Query Editor is straightforward: simply navigate to the Transform Data option located on the Home tab of Power BI Desktop.  
+
+![ETL IMG 2](https://github.com/chigozie-i/Data-Transformation/blob/main/ETL%20IMG%202.png)  
+
 
 
 
